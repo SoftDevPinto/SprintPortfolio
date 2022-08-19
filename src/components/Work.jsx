@@ -9,6 +9,9 @@ import test2 from '../assets/test2.PNG';
 import app from '../assets/app.PNG';
 import design from '../assets/design.PNG';
 import slide from '../assets/slide.png';
+import blus from '../assets/blus.png'
+import figmadesigns from '../assets/figmadesigns.png'
+import easylife from '../assets/easylife.png'
 
 const Work = () => {
   return (
@@ -26,13 +29,13 @@ const Work = () => {
 
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${projects})` }}
+            style={{ backgroundImage: `url(${blus})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-              Figma Designs
+              Gary Blues
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
@@ -40,7 +43,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://www.figma.com/file/yq3jWSXowUvDNhIaGcLYUR/Gary-Blues-Diner?node-id=0%3A1'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Link
                   </button>
@@ -55,15 +58,15 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-              Figma Designs
+              Keyin Social Design
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://www.figma.com/file/ksDikAH0UC1kLJY1iUXc9t/Final-Sprint?node-id=0%3A1'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://www.figma.com/file/ksDikAH0UC1kLJY1iUXc9t/Final-Sprint?node-id=0%3A1'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Link
                   </button>
@@ -73,7 +76,7 @@ const Work = () => {
           </div>
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${test2})` }}
+            style={{ backgroundImage: `url(${figmadesigns})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -87,7 +90,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://www.figma.com/file/5aa2LyIPiyBplplYyNCI36/Portfolio?node-id=0%3A1'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Link
                   </button>
@@ -102,7 +105,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-              Figma Designs
+              App Design
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
@@ -110,7 +113,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://www.figma.com/file/kuTwbgZqE9NV0aRkFycZAD/App-Design?node-id=0%3A1'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Link
                   </button>
@@ -126,7 +129,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Figma Designs
+                Portfolio Design
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
@@ -134,7 +137,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://www.figma.com/file/49l5nkr51m3T7tMKTtXlQQ/Untitled?node-id=0%3A1'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Link
                   </button>
@@ -143,13 +146,13 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${slide})` }}
+            style={{ backgroundImage: `url(${easylife})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Figma Designs
+                Easy Life Designs
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
@@ -157,7 +160,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://www.figma.com/file/Gp8iySsyPtkL3C60iBZpY8/Expenses?node-id=0%3A1'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Link
                   </button>
